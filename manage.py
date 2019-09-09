@@ -1,6 +1,6 @@
 ################################################################
 # Otro requisito para la migración de la base de datos         #
-# es el archivo manage.py . Cree un archivo llamado manage.py  #
+# es el archivo manage.py Cree un archivo llamado manage.py  #
 ################################################################
 
 ################################
