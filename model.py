@@ -33,7 +33,8 @@ class Usuario(DatabaseInstanceAlchemy.Model):
     username = DatabaseInstanceAlchemy.Column(DatabaseInstanceAlchemy.String(10), unique = False)
     password = DatabaseInstanceAlchemy.Column(DatabaseInstanceAlchemy.String(10), unique = False)
 
-    def __init__(self, username, password):
+    def __init__(self, ID_Usuario, username, password):
+        self.ID_Usuario = ID_Usuario
         self.username = username
         self.password = password
 
